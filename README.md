@@ -1,8 +1,8 @@
-# Meteor Addon Template
+MousClientAddon
 
-A template to allow easy usage of the Meteor Addon API.
+Info
+This is a Meteor Addon and requires the use of Meteor Client
 
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+
+
+Build it yourself, I don't want to do this
