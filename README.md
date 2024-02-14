@@ -1,7 +1,3 @@
-# MousClient
+# MousClientAddon
 
-
-
-
-
-Meteor addon for crystal pvp
+Well, like a cool addon for meteor client
