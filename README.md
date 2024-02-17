@@ -1,4 +1,3 @@
-MousClientAddon
+## MousClientAddon
 
-Info
-This is a Meteor Addon and requires the use of Meteor Client
+[Discrod](https://discord.gg/6Yfc5wYuMt)
