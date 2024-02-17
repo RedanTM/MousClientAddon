@@ -26,7 +26,7 @@ public class RPC extends MousModule {
 
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
 
-    private final Setting<String> title = sgGeneral.add(new StringSetting.Builder().name("title").description("What to display as the RPC's title.").renderer(StarscriptTextBoxRenderer.class).defaultValue("Orion {orion_version}").onChanged(booleanSetting -> alertTitle()).build());
+    private final Setting<String> title = sgGeneral.add(new StringSetting.Builder().name("title").description("What to display as the RPC's title.").renderer(StarscriptTextBoxRenderer.class).defaultValue("MousClientV0.3").onChanged(booleanSetting -> alertTitle()).build());
     private final Setting<List<String>> messages = sgGeneral.add(new StringListSetting.Builder().name("line-1").description("Messages for the first RPC line.").renderer(StarscriptTextBoxRenderer.class).defaultValue(Collections.emptyList()).build());
     private final Setting<List<String>> messages2 = sgGeneral.add(new StringListSetting.Builder().name("line-2").description("Messages for the second RPC line.").renderer(StarscriptTextBoxRenderer.class).defaultValue(Collections.emptyList()).build());
     private final Setting<Integer> delay = sgGeneral.add(new IntSetting.Builder().name("update-delay").description("How many seconds before switching to a new RPC message.").defaultValue(5).min(0).sliderMax(30).build());
